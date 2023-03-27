@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body {
+  background-color: black;
+}
+nav{
+  position: fixed;
+  background: #1b1b1b;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.1s ease;
+}
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+}
+
+.startimg {
+  background: url(wallpapera.png)no-repeat;
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.starttitle {
+  position: relative;
+  color: #ffffff;
+  top: 250px;
+  text-align: center;
+  font-size: 500%;
+}
+
+.about {
+  position: relative;
+  background-size: cover;
+  background-color: black;
+  color: white;
+}
+
+.abotitl {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-size: 170%;
+}
+
+.abotp {
+  text-align: center;
+  font-size: large;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: black;
+  border-radius: 20px;
+  transition: all 1.5s ease;
+  cursor: pointer;
+}
+
+.abotp:hover {
+  color: black;
+  background-color: white;
+}
+
+.funcion {
+  width: 100%;
+  background-color: black;
+  color: white;
+  background-size: cover;
+}
+.funtitl {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 80px;
+  font-size: 170%;
+}
+.fungen {
+  text-align: center;
+  font-size: large;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: black;
+  border-radius: 20px;
+  transition: all 1.5s ease;
+  cursor: pointer;
+}
+
+.fungen:hover {
+  color: black;
+  background-color: white;
+}
+ 
+.galleryti {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 80px;
+  font-size: 170%;
+}
+.gallery {
+  background-color: black;
+  color: white;
+}
+ 
+.gallery ul {
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+}
+ 
+.gallery h3 {
+  font-size: 170%;
+}
+ 
+.gallery li img {
+  float: left;
+  margin: 0 15px 0 0;
+  cursor: pointer;
+  height: 100%;
+}
+ 
+.gallery li p {
+  font-size: large;
+}
+ 
+.gallery li {
+  padding: 10px;
+  overflow: auto;
+  border: 3px solid cyan;
+  border-radius: 15px;
+  margin: 60px 70px 60px 70px;
+}
+ 
+.gallery li:hover {
+  border: 3px solid greenyellow;
+}
+
+.footer {
+  text-align: center;
+  background-color: black;
+  border-top: 3px solid cyan;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.logotux {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  transition: all 2.5s ease;
+  cursor: pointer;
+}
+
+.logotux:hover {
+  transform: scale(120%);
+}
+
+
+@media screen and (max-width: 600px)
+{
+  nav{
+    position: fixed;
+    background: #1b1b1b;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+  }
+  nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .menu .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .menu ul{
+    display: inline-flex;
+  }
+  .menu ul li{
+    list-style: none;
+    margin-left: 7px;
+  }
+  .menu ul li:first-child{
+    margin-left: 0px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 7px;
+    border-radius: 5px;
+  }
+  .menu ul li a:hover{
+    background: #fff;
+    color: black;
+  }
+
+  .gallery {
+    background-color: black;
+    color: white;
+    align-items: center;
+  }
+   
+  .gallery ul {
+    list-style-type: none;
+    width: 100%;
+  }
+   
+  .gallery h3 {
+    font-size: 170%;
+  }
+   
+  .gallery li img {
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+  }
+   
+  .gallery li p {
+    font-size: large;
+  }
+   
+  .gallery li {
+    padding: 10px;
+  }
+   
+  .gallery li:hover {
+    border: 3px solid greenyellow;
+  }
+
+  .lineamientos {
+    width: 100%;
+    height: auto;
+  }
+
+  .apaimg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.center {
+  text-align: center;
+  background-color: black;
+  padding: 10px 0px 7px 0px;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.pagination a.active {
+  background-color: cyan;
+  color: red;
+  border: 1px solid cyan;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.lineamientos {
+  width: 320px;
+  height: auto;
+}
+
+.apaimg {
+  width: 320px;
+  height: auto;
+}
+
+
+
+div.gallerm {
+  border: 3px solid cyan;
+  border-radius: 4px;
+  color: white;
+}
+
+div.gallerm:hover {
+  border: 3px solid greenyellow;
+}
+
+div.gallerm img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+a {
+  color: white;
+}
