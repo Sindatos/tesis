@@ -383,3 +383,12 @@ div.desc {
 a {
   color: white;
 }
+
+.tesispimg {
+  background: url(tesis.jpg)no-repeat;
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+}
